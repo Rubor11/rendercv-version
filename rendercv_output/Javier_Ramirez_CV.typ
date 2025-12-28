@@ -12,29 +12,29 @@
   page-bottom-margin: 0.7in,
   page-left-margin: 0.7in,
   page-right-margin: 0.7in,
-  page-show-footer: true,
-  page-show-top-note: true,
-  colors-body: rgb(0, 0, 0),
-  colors-name: rgb(0, 79, 144),
-  colors-headline: rgb(0, 79, 144),
-  colors-connections: rgb(0, 79, 144),
-  colors-section-titles: rgb(0, 79, 144),
-  colors-links: rgb(0, 79, 144),
+  page-show-footer: false,
+  page-show-top-note: false,
+  colors-body: rgb(34, 49, 63),
+  colors-name: rgb(24, 38, 56),
+  colors-headline: rgb(46, 62, 78),
+  colors-connections: rgb(46, 62, 78),
+  colors-section-titles: rgb(24, 62, 184),
+  colors-links: rgb(24, 38, 56),
   colors-footer: rgb(128, 128, 128),
   colors-top-note: rgb(128, 128, 128),
   typography-line-spacing: 0.6em,
   typography-alignment: "justified",
   typography-date-and-location-column-alignment: right,
-  typography-font-family-body: "Source Sans 3",
-  typography-font-family-name: "Source Sans 3",
+  typography-font-family-body: "Lato",
+  typography-font-family-name: "Lato",
   typography-font-family-headline: "Source Sans 3",
-  typography-font-family-connections: "Source Sans 3",
+  typography-font-family-connections: "Lato",
   typography-font-family-section-titles: "Source Sans 3",
   typography-font-size-body: 10pt,
   typography-font-size-name: 30pt,
-  typography-font-size-headline: 10pt,
+  typography-font-size-headline: 12pt,
   typography-font-size-connections: 10pt,
-  typography-font-size-section-titles: 1.4em,
+  typography-font-size-section-titles: 1.2em,
   typography-small-caps-name: false,
   typography-small-caps-headline: false,
   typography-small-caps-connections: false,
@@ -45,7 +45,7 @@
   typography-bold-section-titles: true,
   links-underline: false,
   links-show-external-link-icon: false,
-  header-alignment: center,
+  header-alignment: right,
   header-photo-width: 3.5cm,
   header-space-below-name: 0.7cm,
   header-space-below-headline: 0.7cm,
@@ -55,26 +55,26 @@
   header-connections-display-urls-instead-of-usernames: false,
   header-connections-separator: "",
   header-connections-space-between-connections: 0.5cm,
-  section-titles-type: "with_partial_line",
+  section-titles-type: "with_full_line",
   section-titles-line-thickness: 0.5pt,
   section-titles-space-above: 0.5cm,
   section-titles-space-below: 0.3cm,
   sections-allow-page-break: true,
-  sections-space-between-text-based-entries: 0.3em,
-  sections-space-between-regular-entries: 1.2em,
+  sections-space-between-text-based-entries: 0.15cm,
+  sections-space-between-regular-entries: 0.42cm,
   entries-date-and-location-width: 4.15cm,
-  entries-side-space: 0.2cm,
+  entries-side-space: 0.1cm,
   entries-space-between-columns: 0.1cm,
   entries-allow-page-break: false,
-  entries-short-second-row: true,
+  entries-short-second-row: false,
   entries-summary-space-left: 0cm,
-  entries-summary-space-above: 0cm,
+  entries-summary-space-above: 0.1cm,
   entries-highlights-bullet:  "•" ,
   entries-highlights-nested-bullet:  "•" ,
-  entries-highlights-space-left: 0.15cm,
-  entries-highlights-space-above: 0cm,
-  entries-highlights-space-between-items: 0cm,
-  entries-highlights-space-between-bullet-and-text: 0.5em,
+  entries-highlights-space-left: 0cm,
+  entries-highlights-space-above: 0.15cm,
+  entries-highlights-space-between-items: 0.1cm,
+  entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
     year: 2025,
     month: 12,
@@ -86,7 +86,7 @@
 = Javier Ramirez
 
 #connections(
-  [#connection-with-icon("location-dot")[Spain]],
+  [#connection-with-icon("location-dot")[Málaga\/Spain]],
   [#link("mailto:javierraga02@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[javierraga02\@gmail.com]]],
   [#link("https://linkedin.com/in/javier-ramirez-galvez", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[javier-ramirez-galvez]]],
   [#link("https://github.com/Rubor11", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[Rubor11]]],
@@ -101,8 +101,14 @@ Junior Systems Technician with hands-on experience in production environments, f
 
 #regular-entry(
   [
-    #strong[Soho Boutique Hotels], Junior Systems \/ Automation Technician
+    #strong[Junior Systems \/ Automation Technician], Soho Boutique Hotels
 
+  ],
+  [
+    Mar 2024 – present
+
+  ],
+  main-column-second-row: [
     - Managed Linux servers (Ubuntu, Debian) and Windows environments, performing deployments and monitoring production logs.
 
     - Configured Nginx web server for internal applications and ensured stability during updates.
@@ -120,20 +126,18 @@ Junior Systems Technician with hands-on experience in production environments, f
     - Designed and implemented solutions independently, acting quickly in production to solve issues or add new functionality.
 
   ],
-  [
-    Mar 2024 – present
-
-    1 year 11 months
-
-  ],
 )
 
 == Skills
 
-#regular-entry(
+  #regular-entry(
   [
     #strong[Systems & Automation]
 
+  ],
+  [
+  ],
+  main-column-second-row: [
     - Linux (Ubuntu, Debian)
 
     - Windows
@@ -149,14 +153,16 @@ Junior Systems Technician with hands-on experience in production environments, f
     - Docker (homelab projects, containerization)
 
   ],
-  [
-  ],
 )
 
-#regular-entry(
+  #regular-entry(
   [
     #strong[Programming & Databases]
 
+  ],
+  [
+  ],
+  main-column-second-row: [
     - Python (basic, automation)
 
     - Node.js \/ Express (controllers, routes)
@@ -176,14 +182,16 @@ Junior Systems Technician with hands-on experience in production environments, f
     - Docker Compose (multi-container orchestration for development enviroments)
 
   ],
-  [
-  ],
 )
 
-#regular-entry(
+  #regular-entry(
   [
     #strong[Tools & Platforms]
 
+  ],
+  [
+  ],
+  main-column-second-row: [
     - Git & GitHub (version control, repository management)
 
     - Power Automate (workflow automation, process optimization)
@@ -193,14 +201,16 @@ Junior Systems Technician with hands-on experience in production environments, f
     - Microsoft Excel (data export\/import, reporting)
 
   ],
-  [
-  ],
 )
 
-#regular-entry(
+  #regular-entry(
   [
     #strong[Professional Skills]
 
+  ],
+  [
+  ],
+  main-column-second-row: [
     - Problem-solving under pressure
 
     - Autonomous workflow management
@@ -212,16 +222,18 @@ Junior Systems Technician with hands-on experience in production environments, f
     - Adaptability and learning new technologies quickly
 
   ],
-  [
-  ],
 )
 
 == Projects
 
-#regular-entry(
+  #regular-entry(
   [
     #strong[Employee Management Ecosystem – Soho Boutique Hotels]
 
+  ],
+  [
+  ],
+  main-column-second-row: [
     - Developed and deployed a full HR management ecosystem from scratch. The tool allows employee onboarding\/offboarding, permissions, vacation management,  attendance tracking, and ensures full compliance with external HR providers. Initially built on SharePoint with Power Apps and Power Automate (backend and front-end), now migrated to a scalable web stack with Node.js and SQL Server.
 
     - Implemented server deployment, backend logic, database management, and workflow automation independently.
@@ -235,18 +247,18 @@ Junior Systems Technician with hands-on experience in production environments, f
     - Migrated SharePoint data to SQL Server, maintaining data integrity, normalization, and performance.
 
   ],
-  [
-  ],
 )
 
-#regular-entry(
+  #regular-entry(
   [
     #strong[Personal Homelab Projects]
 
-    - Maintains a personal server environment using Docker for experimentation, automation, and microservices.
-
   ],
   [
+  ],
+  main-column-second-row: [
+    - Maintains a personal server environment using Docker for experimentation, automation, and microservices.
+
   ],
 )
 
@@ -254,17 +266,16 @@ Junior Systems Technician with hands-on experience in production environments, f
 
 #education-entry(
   [
-    #strong[CESUR], Systems Administration
-
-    - Higher Technician in Systems Administration
+    #strong[CESUR],  in Systems Administration
 
   ],
   [
     Jan 2022 – Jan 2025
 
   ],
-  degree-column: [
-    
+  main-column-second-row: [
+    - Higher Technician in Systems Administration
+
   ],
 )
 

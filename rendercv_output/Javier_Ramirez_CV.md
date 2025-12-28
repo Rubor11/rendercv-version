@@ -1,7 +1,7 @@
 # Javier Ramirez's CV
 
 - Email: [javierraga02@gmail.com](mailto:javierraga02@gmail.com)
-- Location: Spain
+- Location: Málaga/Spain
 - LinkedIn: [javier-ramirez-galvez](https://linkedin.com/in/javier-ramirez-galvez)
 - GitHub: [Rubor11](https://github.com/Rubor11)
 
@@ -11,13 +11,9 @@ Junior Systems Technician with hands-on experience in production environments, f
 
 
 # Experience
-## **Soho Boutique Hotels**, Junior Systems / Automation Technician
+## **Junior Systems / Automation Technician**, Soho Boutique Hotels
 
 Mar 2024 – present
-
-
-
-1 year 11 months
 
 - Managed Linux servers (Ubuntu, Debian) and Windows environments, performing deployments and monitoring production logs.
 
@@ -130,11 +126,7 @@ Mar 2024 – present
 
 
 # Education
-## **CESUR**, Systems Administration
-
-
-
-Jan 2022 – Jan 2025
+## **CESUR**,  in Systems AdministrationJan 2022 – Jan 2025
 
 - Higher Technician in Systems Administration
 
