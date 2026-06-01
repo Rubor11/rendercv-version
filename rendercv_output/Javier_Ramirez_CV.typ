@@ -5,7 +5,7 @@
 #show: rendercv.with(
   name: "Javier Ramirez",
   footer: context { [#emph[Javier Ramirez -- #str(here().page())\/#str(counter(page).final().first())]] },
-  top-note: [ #emph[Last updated in Dec 2025] ],
+  top-note: [ #emph[Last updated in June 2026] ],
   locale-catalog-language: "en",
   page-size: "us-letter",
   page-top-margin: 0.7in,
@@ -76,13 +76,20 @@
   entries-highlights-space-between-items: 0.1cm,
   entries-highlights-space-between-bullet-and-text: 0.3em,
   date: datetime(
-    year: 2025,
-    month: 12,
-    day: 28,
+    year: 2026,
+    month: 6,
+    day: 1,
   ),
 )
 
 
+#grid(
+  columns: (auto, 1fr),
+  column-gutter: 0cm,
+  align: horizon + left,
+  [#pad(left: 0.4cm, right: 0.4cm, image("photo.png", width: 3.5cm))
+],
+  [
 = Javier Ramirez
 
 #connections(
@@ -90,6 +97,8 @@
   [#link("mailto:javierraga02@gmail.com", icon: false, if-underline: false, if-color: false)[#connection-with-icon("envelope")[javierraga02\@gmail.com]]],
   [#link("https://linkedin.com/in/javier-ramirez-galvez", icon: false, if-underline: false, if-color: false)[#connection-with-icon("linkedin")[javier-ramirez-galvez]]],
   [#link("https://github.com/Rubor11", icon: false, if-underline: false, if-color: false)[#connection-with-icon("github")[Rubor11]]],
+)
+  ]
 )
 
 

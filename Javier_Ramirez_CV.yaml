@@ -1,6 +1,7 @@
 # CV Field - Personal Information
 cv:
   name: "Javier Ramirez"
+  photo: "photo.png"
   #title: "Junior Systems & Automation Technician"
   location: "Málaga/Spain"
   email: javierraga02@gmail.com
